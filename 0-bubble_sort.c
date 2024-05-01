@@ -24,6 +24,6 @@ void bubble_sort(int *array, size_t size)
 				*(array + n) = temp;
 				print_array(array, size);
 			}
-		} /*End of inner for loop*/
-	} /*End of outer for loop*/
+		}
+	}
 }
